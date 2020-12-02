@@ -7,11 +7,16 @@ services:
         environment:
           - MAX_PHP_PROCESS=5
           - NGINX_PROCESS=1
+        volumes:
+            - laravel-storage:/var/www/html/storage/framework
         env_file: .env
         build:
             context: ./
         ports:
             - "80:80"
+        networks:
+            - laravel-net
+
     agenda_db:
         image: mysql:5.7
         environment:
@@ -21,3 +26,12 @@ services:
             - "3306:3306"
         volumes:
             - /home/agenda/dev/docker/volumes/mysql:/var/lib/mysql
+        networks:
+            - laravel-net
+
+networks:
+    laravel-net:
+        name: laravel-net
+
+volumes:
+    laravel-storage:

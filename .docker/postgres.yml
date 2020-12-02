@@ -1,4 +1,4 @@
-version: '3'
+version: '3.7'
 
 services:
 
@@ -27,6 +27,7 @@ services:
 
 networks:
   laravel-net:
+    external: true
 
 volumes:
   postgres_data:
