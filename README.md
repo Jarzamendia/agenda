@@ -1,6 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/36674534cabc516e0359/maintainability)](https://codeclimate.com/github/Jarzamendia/agenda/maintainability)
-
-![PHP Composer](https://github.com/Jarzamendia/agenda/workflows/PHP%20Composer/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/36674534cabc516e0359/maintainability)](https://codeclimate.com/github/Jarzamendia/agenda/maintainability) ![PHP Composer](https://github.com/Jarzamendia/agenda/workflows/PHP%20Composer/badge.svg)
 
 # Sobre a Agenda
 
