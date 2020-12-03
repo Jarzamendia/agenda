@@ -1,5 +1,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/36674534cabc516e0359/maintainability)](https://codeclimate.com/github/Jarzamendia/agenda/maintainability)
 
+![PHP Composer](https://github.com/Jarzamendia/agenda/workflows/PHP%20Composer/badge.svg)
+
 # Sobre a Agenda
 
 A Agenda (Temporário) é um projeto de gerenciamento de pequenos salões e profissionais autônomos. Seu principal objetivo é gerenciar de forma fácil e intuitiva a agenda de trabalho, controle de estoque e clientes.
